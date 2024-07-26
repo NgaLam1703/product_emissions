@@ -72,3 +72,30 @@ SELECT * FROM countries c LIMIT 5;
 |3|Brazil|
 |4|Canada|
 |5|Chile|
+
+### Check duplicates
+Before analyzing the project, we will search for duplicate information and group by that duplicate data.
+
+```
+SELECT COUNT(product_name) AS 'Total number of products',
+	COUNT(DISTINCT(product_name)) AS 'Number of unique products'
+FROM product_emissions pe ;
+```
+|Total number of products|Number of unique products|
+|------------------------|-------------------------|
+|1037|661|
+The result shows that we have duplicate data so we will solve them by grouping by them.
+
+## Data is clean, let's go into the project.
+Now we will find out which factors will create the most carbon emissions.
+
+### Products contribute the most to carbon emissions
+
+```
+SELECT 
+	product_name,
+	ROUND(AVG(carbon_footprint_pcf), 2) AS 'Average carbon PCF'
+FROM product_emissions pe 
+GROUP BY product_name 
+ORDER BY ROUND(AVG(carbon_footprint_pcf), 2) DESC LIMIT 5;
+```
