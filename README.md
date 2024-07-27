@@ -332,10 +332,10 @@ Some industry groups have a decrease in emissions such as: Food & Staples Retail
 # Insights
 After analyzing and exploring the data, it shows that:
 - The products that generate the highest amount of carbon emissions are heavy industries such as:
-  	-Electrical Equipment and Machinery
-	-Automobiles & Components
-	-Materials
-	-Technology Hardware & Equipment
+  	- Electrical Equipment and Machinery
+  	- Automobiles & Components
+	- Materials
+	- Technology Hardware & Equipment
 - Popular luxury car models such as: Mercedes-Benz GLE, Mercedes-Benz S-Class, Mercedes-Benz SL contribute to creating very high greenhouse gas emissions.
 - In particular, the Pharmaceuticals, Biotechnology & Life Sciences industry is a leading industry group that is important to humans but it contributes to creating high greenhouse gas emissions.
 - Most of the countries with the highest carbon emissions are located in continental Europe.
