@@ -321,3 +321,9 @@ ORDER BY
 |2015|Trading Companies & Distributors and Commercial Services & Supplies|239.00|
 |2013|Utilities|122.00|
 |2016|Utilities|122.00|
+
+Based on the results obtained, we can see that the Top industry groups still have a steady increase in carbon emissions over the years such as:
+- Automobiles & Components
+- Pharmaceuticals, Biotechnology & Life Sciences
+- Food, Beverage & Tobacco,...
+Some industry groups have a decrease in emissions such as: Food & Staples Retailing and Retailing
