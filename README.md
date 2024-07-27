@@ -161,6 +161,7 @@ LIMIT 10;
 |Media|23017.00|
 
 When the average is changed to total, the Top sector retains its leading position. What is a bit surprising is that "Food, Beverage & Tobacco" and "Pharmaceuticals, Biotechnology & Life Sciences" are essential but high carbon-emitting sectors.
+Pharmaceuticals, Biotechnology & Life Sciences industry is one of the leaders in carbon emissions - Now we know what our health comes at.
 
 ### Top 8 Companies with the highest contribution to carbon emissions
 
@@ -211,6 +212,7 @@ LIMIT 10;
 |Taiwan|62875.00|
 |India|24574.00|
 
+The locations of the above countries are all in Europe. According to VietNam+, CO2 emissions from energy use are the main cause of global warming and account for about 75% of total greenhouse gas emissions caused by humans in the EU. (Minh Hang, https://www.vietnamplus.vn/luong-khi-thai-co2-do-su-dung-nang-luong-tai-chau-au-giam-post867468.vnp)
 ### the trend of carbon footprints (PCFs) over the years
 
 ```
@@ -230,6 +232,8 @@ ORDER BY year;
 |2016|1640182.00|6891.52|
 |2017|340271.00|4050.85|
 
+From the above results, I see that carbon concentration tends to increase steadily over the years from 2013 to 2015. 
+In 2015, carbon emissions were at their highest level and then tended to decrease gradually.
 ###  Industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time
 
 ```
